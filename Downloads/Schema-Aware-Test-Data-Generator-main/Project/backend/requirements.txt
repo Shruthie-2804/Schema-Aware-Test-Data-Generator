@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+faker
+pandas
+pytest
+httpx
+python-multipart
+python-dotenv

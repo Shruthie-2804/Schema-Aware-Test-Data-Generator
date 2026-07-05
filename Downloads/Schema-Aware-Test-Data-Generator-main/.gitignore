@@ -1,0 +1,37 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+*.env.local
+*.env.*.local
+Project/backend/.env
+**/.env
+# NEVER commit API keys — use .env.example as a template
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+.next/
+dist/
+.output/
+.vinxi/
+
+# ── Generated output ──────────────────────────────────────────────────────────
+sample_data/output/csv/
+sample_data/output/*.sql
+sample_data/output/*.zip
+sample_data/output/*.md
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db

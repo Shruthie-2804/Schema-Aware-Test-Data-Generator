@@ -1,0 +1,6 @@
+id,category_id,product_name,price,stock,status
+1,2,Derek Mahoney,6981.69,44,pending
+2,2,Sherry Wood,2153.92,98,pending
+3,1,Roy Warner,928.36,13,pending
+4,3,Victoria Valdez,6037.65,6,completed
+5,5,Robert Evans,1249.14,49,active
